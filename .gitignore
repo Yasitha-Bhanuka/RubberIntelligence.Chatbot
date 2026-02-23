@@ -108,3 +108,5 @@ override.cfg
 # IDEs
 *.swp
 *~
+
+venv
