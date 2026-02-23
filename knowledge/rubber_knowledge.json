@@ -1,0 +1,767 @@
+[
+    {
+        "id": "d001",
+        "category": "Diseases",
+        "question": "What is Corynespora leaf fall disease?",
+        "answer": "Corynespora Leaf Fall (CLF) is caused by the fungus Corynespora cassiicola. It is one of the most serious rubber diseases in Sri Lanka and Southeast Asia. Symptoms include fishbone-patterned lesions on leaves, leading to severe defoliation. Young rubber trees (< 5 years) are particularly vulnerable. Control involves planting resistant clones (RRIC 100, RRIC 121), proper spacing for air circulation, and fungicide application (Mancozeb 80% WP) during wet seasons.",
+        "keywords": [
+            "corynespora",
+            "leaf fall",
+            "CLF",
+            "fungus",
+            "defoliation",
+            "fishbone pattern"
+        ]
+    },
+    {
+        "id": "d002",
+        "category": "Diseases",
+        "question": "How do I identify Phytophthora leaf fall?",
+        "answer": "Phytophthora leaf fall is caused by Phytophthora botryosa and P. palmivora. Look for water-soaked, dark brown lesions on leaves, often with a distinct foul smell. Pods (fruits) may also be affected showing black rot. The disease is most severe during the southwest monsoon (May–July) in Sri Lanka. Control measures include copper-based fungicides (Bordeaux mixture), proper drainage, and avoiding dense canopy conditions.",
+        "keywords": [
+            "phytophthora",
+            "leaf fall",
+            "water-soaked",
+            "brown lesions",
+            "monsoon"
+        ]
+    },
+    {
+        "id": "d003",
+        "category": "Diseases",
+        "question": "What is Oidium leaf disease in rubber?",
+        "answer": "Oidium (Powdery Mildew) is caused by Oidium heveae. It appears as a white powdery coating on young leaves during refoliation (February–March in Sri Lanka). Severely affected leaves become distorted and fall prematurely. The disease delays canopy development and reduces yield. Control includes sulfur dusting (300 mesh sulfur) at 10–12 kg/ha during the susceptible refoliation period, or spraying Tridemorph (Calixin) at 0.2% concentration.",
+        "keywords": [
+            "oidium",
+            "powdery mildew",
+            "white powder",
+            "refoliation",
+            "sulfur"
+        ]
+    },
+    {
+        "id": "d004",
+        "category": "Diseases",
+        "question": "What causes Colletotrichum leaf disease?",
+        "answer": "Colletotrichum leaf disease (Gloeosporium leaf disease) is caused by Colletotrichum gloeosporioides. It affects young tender leaves during refoliation. Symptoms include small, brown, circular spots that enlarge and coalesce, causing leaves to curl and drop. The disease is common during humid conditions. Control involves carbendazim spraying (0.05%) and maintaining proper field sanitation by removing fallen infected leaves.",
+        "keywords": [
+            "colletotrichum",
+            "gloeosporium",
+            "brown spots",
+            "refoliation",
+            "carbendazim"
+        ]
+    },
+    {
+        "id": "d005",
+        "category": "Diseases",
+        "question": "What is white root disease in rubber?",
+        "answer": "White Root Disease is caused by the fungus Rigidoporus microporus. It is the most destructive root disease of rubber trees. Symptoms include yellowing and wilting of leaves, reduced latex yield, and white mycelial fans visible on roots when soil is cleared. Infected trees may suddenly die. Prevention includes thorough clearing of old rubber and jungle stumps before replanting. Treatment involves exposing roots and applying Tridemorph (Calixin 5%) paint on affected roots, plus soil drenching with fungicide.",
+        "keywords": [
+            "white root",
+            "rigidoporus",
+            "root disease",
+            "mycelial fans",
+            "wilting",
+            "tridemorph"
+        ]
+    },
+    {
+        "id": "d006",
+        "category": "Diseases",
+        "question": "How to treat brown bast in rubber trees?",
+        "answer": "Brown Bast (Tapping Panel Dryness or TPD) is a physiological disorder, not a pathogen. The bark tissue becomes brown and dry, and latex flow ceases from the affected panel. Causes include over-stimulation with Ethephon, excessive tapping frequency, and tree stress. Treatment: rest the affected panel for 6–12 months, reduce tapping frequency (d/3 or d/4 instead of d/2), reduce/stop Ethephon stimulation, and apply balanced fertilizer to support tree recovery.",
+        "keywords": [
+            "brown bast",
+            "tapping panel dryness",
+            "TPD",
+            "dry bark",
+            "over-stimulation",
+            "ethephon"
+        ]
+    },
+    {
+        "id": "d007",
+        "category": "Diseases",
+        "question": "What is Fusicoccum leaf blight?",
+        "answer": "Fusicoccum leaf blight is caused by Fusicoccum sp. It produces irregular brown lesions on mature leaves. Unlike Corynespora, lesions are larger and more irregular without the fishbone pattern. The disease is increasingly common in some Sri Lankan rubber plantations. Management includes removal of infected plant debris, copper-based fungicides, and ensuring adequate spacing between trees for air circulation.",
+        "keywords": [
+            "fusicoccum",
+            "leaf blight",
+            "irregular lesions",
+            "copper fungicide"
+        ]
+    },
+    {
+        "id": "d008",
+        "category": "Diseases",
+        "question": "What is pink disease in rubber?",
+        "answer": "Pink Disease is caused by the fungus Corticium salmonicolor. It affects branches and stems, forming a pink encrustation on the bark surface. The fungus girdles branches, causing dieback above the infection point. It is common in young rubber trees (2–5 years) during wet seasons. Control: prune and destroy infected branches, apply Bordeaux paste to cut surfaces, and spray Tridemorph on affected areas.",
+        "keywords": [
+            "pink disease",
+            "corticium",
+            "bark encrustation",
+            "branch dieback",
+            "bordeaux paste"
+        ]
+    },
+    {
+        "id": "d009",
+        "category": "Diseases",
+        "question": "How to prevent mouldy rot of rubber bark?",
+        "answer": "Mouldy Rot (also called bark rot or panel disease) is caused by Ceratocystis fimbriata. It affects the tapping panel area, causing the bark to become soft, wet, and covered with mould. The bark fails to regenerate properly. Prevention: maintain clean tapping practices, apply fungicidal wound dressing after tapping, avoid tapping during heavy rain, and ensure tapping knives are disinfected between trees.",
+        "keywords": [
+            "mouldy rot",
+            "bark rot",
+            "ceratocystis",
+            "tapping panel",
+            "wound dressing"
+        ]
+    },
+    {
+        "id": "d010",
+        "category": "Diseases",
+        "question": "What is black stripe disease in rubber?",
+        "answer": "Black Stripe Disease is caused by Phytophthora palmivora affecting the tapping panel. Dark black streaks or stripes appear on the freshly tapped bark, which later becomes necrotic. Latex flow is significantly reduced from affected areas. Control: apply copper-based fungicides to the tapping panel, avoid tapping during heavy rainfall, maintain panel hygiene, and consider switching to a higher panel if infection persists.",
+        "keywords": [
+            "black stripe",
+            "phytophthora",
+            "tapping panel",
+            "black streaks",
+            "copper fungicide"
+        ]
+    },
+    {
+        "id": "p001",
+        "category": "Pests",
+        "question": "How to control mites on rubber trees?",
+        "answer": "The main rubber mite is Calacarus heveae (rubber spider mite). Symptoms include bronzing or russeting of leaf surfaces, mainly on the upper surface. Heavy infestations cause premature leaf fall and reduced yield. Control: apply sulfur-based acaricides (Wettable Sulfur 80% at 4g/L) or Dicofol. Biological control using predatory mites (Amblyseius sp.) is an eco-friendly alternative. Maintain field sanitation and remove weed hosts.",
+        "keywords": [
+            "mites",
+            "calacarus",
+            "spider mite",
+            "bronzing",
+            "acaricide",
+            "sulfur"
+        ]
+    },
+    {
+        "id": "p002",
+        "category": "Pests",
+        "question": "What are scale insects in rubber and how to control them?",
+        "answer": "Scale insects (Saissetia nigra, Coccus viridis) attack rubber tree stems and branches. They appear as small, brown or green disc-like scales attached to the bark, sucking plant sap. Heavy infestations weaken trees and promote sooty mould growth from honeydew excretions. Control: spray White Oil emulsion (2%) or Dimethoate (0.05%). Pruning heavily infested branches helps. Encourage natural predators like ladybird beetles.",
+        "keywords": [
+            "scale insects",
+            "saissetia",
+            "coccus",
+            "sooty mould",
+            "white oil",
+            "dimethoate"
+        ]
+    },
+    {
+        "id": "p003",
+        "category": "Pests",
+        "question": "How to manage termite damage in rubber plantations?",
+        "answer": "Termites (Coptotermes curvignathus, Odontotermes sp.) attack rubber trees primarily at the base and roots, especially in newly planted areas. Signs include mud tubes on trunks, softened bark, and internal wood damage. Control: apply Chlorpyrifos (0.1%) or Imidacloprid soil drench around the base. Remove dead wood and stumps from the field that serve as termite nesting sites. Ring-barking with insecticide paste is helpful for active infestations.",
+        "keywords": [
+            "termites",
+            "coptotermes",
+            "mud tubes",
+            "soil drench",
+            "chlorpyrifos"
+        ]
+    },
+    {
+        "id": "p004",
+        "category": "Pests",
+        "question": "What damage do bark borers cause in rubber?",
+        "answer": "Bark borers (Xyleborus sp.) are small beetles that bore into the bark and sapwood of rubber trees, creating tunnels. They introduce ambrosia fungi that further damage the wood. Signs include small circular bore holes with fine sawdust. They are more common in stressed or poorly maintained trees. Control: maintain tree health with proper fertilization, seal bore holes with cotton soaked in Chlorpyrifos, and remove and destroy heavily infested branches.",
+        "keywords": [
+            "bark borers",
+            "xyleborus",
+            "bore holes",
+            "sawdust",
+            "ambrosia fungi"
+        ]
+    },
+    {
+        "id": "p005",
+        "category": "Pests",
+        "question": "How to control white grub damage in rubber nurseries?",
+        "answer": "White grubs (Leucopholis sp., Holotrichia sp.) are beetle larvae that feed on roots of young rubber seedlings and buddings in nurseries. Symptoms include sudden wilting and death of young plants. Control: apply Chlorpyrifos granules (10G) to the soil during land preparation, use light traps to capture adult beetles during swarming season (April–May), and maintain clean nursery conditions. Hand-picking larvae during soil preparation is also effective.",
+        "keywords": [
+            "white grubs",
+            "leucopholis",
+            "larvae",
+            "root damage",
+            "nursery",
+            "chlorpyrifos"
+        ]
+    },
+    {
+        "id": "p006",
+        "category": "Pests",
+        "question": "What is the rubber slug caterpillar?",
+        "answer": "The slug caterpillar (Parasa lepida) is a leaf-feeding pest of rubber. The green, slug-like larvae feed on leaf surfaces, leaving only the veins (skeletonizing). Outbreaks can cause significant defoliation. The larvae also have stinging spines that cause skin irritation. Control: hand-picking in small infestations, or spray Profenofos or Chlorpyrifos at 0.05% for larger outbreaks. Light traps can capture adult moths.",
+        "keywords": [
+            "slug caterpillar",
+            "parasa",
+            "skeletonizing",
+            "defoliation",
+            "leaf feeding"
+        ]
+    },
+    {
+        "id": "w001",
+        "category": "Weeds",
+        "question": "How to control Imperata (illuk) grass in rubber plantations?",
+        "answer": "Imperata cylindrica (illuk/cogon grass) is one of the most problematic weeds in Sri Lankan rubber plantations. It competes aggressively for water, nutrients, and light. Control methods: Glyphosate (Roundup) at 1.44 kg ai/ha is highly effective as a spot or blanket spray. Mechanical control with rotary slashers is temporary as it re-grows from rhizomes. Establish thick cover crops (Pueraria phaseoloides or Mucuna) to suppress regrowth. Integrated approach is recommended.",
+        "keywords": [
+            "imperata",
+            "illuk",
+            "cogon grass",
+            "glyphosate",
+            "cover crop",
+            "rhizomes"
+        ]
+    },
+    {
+        "id": "w002",
+        "category": "Weeds",
+        "question": "How to manage Mikania weed in rubber plantations?",
+        "answer": "Mikania micrantha (mile-a-minute vine) is an aggressive climbing weed that can smother young rubber trees. It grows rapidly during the rainy season. Control: manual removal before flowering is critical to prevent seed spread. Herbicide control with 2,4-D Amine (1.44 kg ai/ha) or Glyphosate is effective. Establish competitive cover crops. Regular monitoring is essential as Mikania can re-establish quickly from fragments.",
+        "keywords": [
+            "mikania",
+            "mile-a-minute",
+            "climbing weed",
+            "2,4-D",
+            "cover crop"
+        ]
+    },
+    {
+        "id": "w003",
+        "category": "Weeds",
+        "question": "What is the recommended weeding schedule for rubber?",
+        "answer": "For young rubber (0–3 years): circle weeding around trees (1m radius) every 6–8 weeks, plus inter-row slashing every 2–3 months. For mature rubber: maintain a clean circle (1m radius) around each tree and allow controlled ground cover in inter-rows. Chemical weeding with Glyphosate (pre-emergence) + Diuron (residual) is cost-effective for larger estates. Always avoid herbicide contact with rubber tree bark and roots.",
+        "keywords": [
+            "weeding schedule",
+            "circle weeding",
+            "glyphosate",
+            "diuron",
+            "young rubber"
+        ]
+    },
+    {
+        "id": "w004",
+        "category": "Weeds",
+        "question": "What cover crops are suitable for rubber plantations?",
+        "answer": "Recommended cover crops for rubber inter-rows: Pueraria phaseoloides (tropical kudzu) — the most popular leguminous cover crop, fixes nitrogen, and suppresses weeds. Mucuna bracteata — vigorous ground cover with excellent weed suppression. Calopogonium mucunoides — good for acidic soils. Cover crops should be established during the first year of planting. They reduce erosion, improve soil organic matter, fix 50–100 kg N/ha/year, and suppress weed growth naturally.",
+        "keywords": [
+            "cover crops",
+            "pueraria",
+            "mucuna",
+            "calopogonium",
+            "legume",
+            "nitrogen fixing"
+        ]
+    },
+    {
+        "id": "l001",
+        "category": "Latex Quality",
+        "question": "What is DRC and how to measure it?",
+        "answer": "DRC (Dry Rubber Content) measures the actual rubber solid percentage in latex. Standard method: weigh a known volume of latex, coagulate with dilute acetic acid or formic acid, wash, and dry the coagulum at 70°C to constant weight. DRC = (dry weight / wet weight) × 100. Fresh field latex typically has 25–35% DRC. Centrifuged latex concentrate has 60% DRC minimum. DRC is the primary pricing parameter for field latex purchases.",
+        "keywords": [
+            "DRC",
+            "dry rubber content",
+            "coagulate",
+            "acetic acid",
+            "pricing"
+        ]
+    },
+    {
+        "id": "l002",
+        "category": "Latex Quality",
+        "question": "What is VFA number and why is it important?",
+        "answer": "VFA (Volatile Fatty Acid) number indicates the degree of bacterial decomposition in latex. It measures short-chain fatty acids produced by bacterial fermentation of non-rubber substances. Method: steam distillation, then titration with NaOH. Fresh latex has VFA < 0.02. Preserved latex should maintain VFA < 0.05. A VFA > 0.06 indicates significant spoilage. Rising VFA is the earliest warning sign of latex degradation. At VFA > 0.10, the latex is likely unsalvageable.",
+        "keywords": [
+            "VFA",
+            "volatile fatty acid",
+            "bacterial",
+            "spoilage",
+            "titration",
+            "preservation"
+        ]
+    },
+    {
+        "id": "l003",
+        "category": "Latex Quality",
+        "question": "What is MST and how to test it?",
+        "answer": "MST (Mechanical Stability Time) measures the resistance of latex to mechanical agitation. Method: subject a standard volume of latex (diluted to 55% TSC) to high-speed stirring (14,000 rpm) and measure the time until visible flocs appear. MST > 650 seconds is required for high-grade concentrated latex. Low MST means the latex will coagulate during processing operations like pumping and centrifuging. MST is affected by ammonia level, pH, and zinc oxide content.",
+        "keywords": [
+            "MST",
+            "mechanical stability",
+            "stirring",
+            "flocs",
+            "centrifuging",
+            "ammonia"
+        ]
+    },
+    {
+        "id": "l004",
+        "category": "Latex Quality",
+        "question": "How much ammonia should be used to preserve latex?",
+        "answer": "Ammonia is the primary preservative for natural rubber latex. High Ammonia (HA) latex: minimum 0.70% w/w ammonia — provides bactericidal action and maintains alkalinity. Low Ammonia (LA) latex: 0.20% w/w ammonia + secondary preservatives like TMTD/ZnO (0.025% each) or lauric acid (0.05%). Ammonia should be added within 4-6 hours of tapping. Check ammonia levels weekly — levels drop over time due to evaporation and reaction with fatty acids.",
+        "keywords": [
+            "ammonia",
+            "preservation",
+            "HA",
+            "LA",
+            "TMTD",
+            "ZnO",
+            "bactericidal"
+        ]
+    },
+    {
+        "id": "l005",
+        "category": "Latex Quality",
+        "question": "What is the ideal storage temperature for latex?",
+        "answer": "Natural rubber latex should be stored between 25°C and 30°C. Temperatures above 35°C accelerate bacterial growth, increase VFA production, and cause destabilisation of the latex colloid. Freezing temperatures (below 0°C) cause irreversible coagulation of the latex particles. Avoid direct sunlight on storage tanks as it heats the outer layer unevenly. In hot climates, consider shaded storage areas or insulated tanks.",
+        "keywords": [
+            "temperature",
+            "storage",
+            "25-30°C",
+            "bacterial growth",
+            "freezing",
+            "coagulation"
+        ]
+    },
+    {
+        "id": "l006",
+        "category": "Latex Quality",
+        "question": "Why is my latex coagulating prematurely?",
+        "answer": "Premature coagulation can be caused by: (1) Insufficient ammonia — check that ammonia level is > 0.70% for HA latex, (2) High bacterial activity — VFA number rising above 0.05, (3) Contamination from rain water, iron ions, or dirty containers, (4) Excessive heat — storage temperature > 35°C, (5) Low pH — below 10.0 indicates acid formation from bacteria, (6) Mixing incompatible latex batches. Immediate actions: test VFA and pH, add fresh ammonia if pH < 10.5, and isolate contaminated batches.",
+        "keywords": [
+            "coagulation",
+            "premature",
+            "ammonia",
+            "VFA",
+            "pH",
+            "contamination"
+        ]
+    },
+    {
+        "id": "l007",
+        "category": "Latex Quality",
+        "question": "What are TSR rubber grades?",
+        "answer": "TSR (Technically Specified Rubber) is graded by laboratory testing, not visual inspection. Key grades: TSR 5 — Dirt max 0.05%, lowest ash and nitrogen (premium grade). TSR 10 — Dirt max 0.10%, the most commonly traded grade. TSR 20 — Dirt max 0.20%, standard for general manufacturing. TSR 50 — Dirt max 0.50%, lower grade for some industrial uses. Parameters tested: dirt content, ash content, nitrogen content, volatile matter, PRI (Plasticity Retention Index), and Mooney viscosity.",
+        "keywords": [
+            "TSR",
+            "technically specified",
+            "grading",
+            "dirt content",
+            "PRI",
+            "mooney viscosity"
+        ]
+    },
+    {
+        "id": "l008",
+        "category": "Latex Quality",
+        "question": "What is RSS and how is it graded?",
+        "answer": "RSS (Ribbed Smoked Sheet) is graded visually according to the Green Book standards. Grades: RSS 1X — clean, dry, no impurities, uniform color (super premium). RSS 1 — slight specks allowed, good quality. RSS 2 — slight rust on surface, minor mould spots. RSS 3 — more discolouration allowed, slight tackiness. RSS 4 — some bark particles, moderate discolouration. RSS 5 — downgraded quality, higher dirt. Sri Lanka traditionally produces high-quality RSS 1 and RSS 2. Proper smoking (48–72 hours at 45–60°C) is critical for quality.",
+        "keywords": [
+            "RSS",
+            "ribbed smoked sheet",
+            "Green Book",
+            "grading",
+            "smoking",
+            "visual inspection"
+        ]
+    },
+    {
+        "id": "l009",
+        "category": "Latex Quality",
+        "question": "How to prevent bad odors in stored latex?",
+        "answer": "Bad odors (putrefactive smell) in stored latex indicate bacterial spoilage and protein decomposition. Prevention: (1) Maintain adequate ammonia levels (>0.70% for HA latex), (2) Keep containers airtight to prevent atmospheric contamination, (3) Ensure all collection cups, buckets, and tanks are thoroughly cleaned and sanitized before use, (4) Add latex to storage within 4-6 hours of tapping, (5) Do not mix old residues with fresh latex. If odor develops, test VFA immediately — if > 0.08, the batch may need to be processed quickly before further deterioration.",
+        "keywords": [
+            "bad odor",
+            "putrefactive",
+            "bacterial spoilage",
+            "protein decomposition",
+            "ammonia",
+            "VFA"
+        ]
+    },
+    {
+        "id": "l010",
+        "category": "Latex Quality",
+        "question": "Can latex be stored in iron drums?",
+        "answer": "Iron drums must be internally coated with epoxy resin or bituminous paint before storing latex. Direct contact with iron surfaces causes: (1) Iron ion contamination — Fe²⁺ and Fe³⁺ ions catalyze oxidation of rubber molecules, (2) Dark discolouration of the latex, (3) Reduced mechanical stability (MST), (4) Formation of iron-fatty acid complexes that destabilize the colloid. Preferred containers: HDPE (high-density polyethylene) tanks, stainless steel, or properly coated GI drums. Inspect coatings regularly for damage or peeling.",
+        "keywords": [
+            "iron drums",
+            "coating",
+            "epoxy",
+            "HDPE",
+            "contamination",
+            "oxidation"
+        ]
+    },
+    {
+        "id": "l011",
+        "category": "Latex Quality",
+        "question": "What does the pH of latex indicate?",
+        "answer": "Fresh field latex has a pH of 6.5–7.0 (slightly acidic to neutral). After ammonia preservation, pH should rise to 10.2–10.8. pH monitoring is critical: pH > 10.5 — Good preservation, adequate ammonia. pH 10.0–10.5 — Borderline, add more ammonia. pH < 10.0 — Dangerous, indicates ammonia depletion and/or bacterial acid production. Immediate action needed. pH < 9.5 — Imminent coagulation risk. Check VFA, add ammonia urgently, and consider processing immediately. Use a calibrated pH meter (not paper strips) for accuracy.",
+        "keywords": [
+            "pH",
+            "ammonia",
+            "preservation",
+            "acidity",
+            "alkalinity",
+            "monitoring"
+        ]
+    },
+    {
+        "id": "c001",
+        "category": "Cultivation",
+        "question": "What is the recommended tapping system for rubber trees?",
+        "answer": "The standard tapping system is S/2 d/2 — half spiral cut, tapping every other day. This gives a good balance between yield and tree health. For high-performing clones with low TPD susceptibility, S/2 d/3 (every 3rd day) with low Ethephon stimulation (2.5%) is recommended. Virgin bark tapping starts at panel BO-1 (base panel, left side). After bark renewal (6-7 years), retapping can be done on renewed bark. Always tapping from high to low (left to right). Tapping depth should reach 1–1.5 mm above the cambium without damaging it.",
+        "keywords": [
+            "tapping",
+            "S/2",
+            "d/2",
+            "spiral",
+            "panel",
+            "ethephon",
+            "cambium"
+        ]
+    },
+    {
+        "id": "c002",
+        "category": "Cultivation",
+        "question": "When should rubber trees be opened for tapping?",
+        "answer": "Rubber trees are opened for tapping when the trunk circumference reaches 50 cm (approximately 20 inches) at 150 cm height from the ground. This typically takes 5-7 years from planting depending on the clone, soil, and management. Premature tapping (< 45 cm girth) leads to reduced bark thickness, poor latex flow, and long-term damage to the tree. Some fast-growing clones like RRIC 100 and RRIC 121 can reach tappable girth in 5 years with good management.",
+        "keywords": [
+            "tapping",
+            "opening",
+            "girth",
+            "circumference",
+            "50 cm",
+            "maturity"
+        ]
+    },
+    {
+        "id": "c003",
+        "category": "Cultivation",
+        "question": "What are the recommended rubber clones for Sri Lanka?",
+        "answer": "Recommended clones from the Rubber Research Institute of Sri Lanka (RRISL): RRIC 100 — most popular, high yielding (1800-2000 kg/ha/year), moderate CLF resistance. RRIC 121 — good yield with better disease resistance. RRIC 130 — newer clone with high yield potential. RRIC 102 — moderately high yield, good for windy areas (wind resistant). RRIC 133 — high yield, good latex quality. For wet zone areas prone to Corynespora, choose CLF-resistant clones. Always use RRISL-certified budwood for planting.",
+        "keywords": [
+            "clones",
+            "RRIC 100",
+            "RRIC 121",
+            "RRIC 130",
+            "yield",
+            "RRISL",
+            "budwood"
+        ]
+    },
+    {
+        "id": "c004",
+        "category": "Cultivation",
+        "question": "What is the correct planting density for rubber?",
+        "answer": "Standard planting density: 500-550 trees per hectare, with spacing of 6m × 3m (between rows × within rows) or 8m × 2.5m. For intercropping systems, wider spacing of 9m × 3m (370 trees/ha) is used to allow intercrops like banana, pineapple, or pepper during the immature phase (first 3-4 years). In Sri Lanka, the 8m × 2.5m spacing is common as it allows mechanized inter-row management. Plant in straight rows oriented east-west to maximize light capture.",
+        "keywords": [
+            "planting density",
+            "spacing",
+            "trees per hectare",
+            "intercropping",
+            "6m × 3m"
+        ]
+    },
+    {
+        "id": "c005",
+        "category": "Cultivation",
+        "question": "What fertilizer program is recommended for rubber?",
+        "answer": "Young rubber (0-5 years): Apply NPKMg mixture in a circle around the tree, increasing annually. Year 1: 150g/tree/year, Year 2: 200g, Year 3-5: 300g. Use the RRISL-recommended mix (12:14:14:2 NPKMg). Mature tapping rubber: 600-900g/tree/year of the same mixture, applied in two split doses (Apr-May and Oct-Nov). Additionally, 30-50g/tree of Kieserite (MgSO₄) for magnesium. Apply fertilizer in a 1.5m band around the tree base, not touching the trunk. Soil test every 2-3 years for targeted nutrition.",
+        "keywords": [
+            "fertilizer",
+            "NPK",
+            "magnesium",
+            "RRISL",
+            "application",
+            "soil test"
+        ]
+    },
+    {
+        "id": "c006",
+        "category": "Cultivation",
+        "question": "How to do bud grafting in rubber?",
+        "answer": "Bud grafting (budding) is the standard propagation method: (1) Grow rootstock seedlings in a nursery for 6-8 months until pencil thickness, (2) Select budwood from high-yielding mother trees of recommended clones (green budwood from recent shoots), (3) Make a vertical incision (3 cm) on the rootstock stem at ~10 cm height, (4) Insert a bud patch (with a thin sliver of wood) under the bark flap, (5) Wrap tightly with polythene tape, (6) After 21 days, check for successful union. Success rate should be > 90% with proper technique. Best season: September-November in Sri Lanka.",
+        "keywords": [
+            "budding",
+            "bud grafting",
+            "rootstock",
+            "budwood",
+            "propagation",
+            "polythene"
+        ]
+    },
+    {
+        "id": "c007",
+        "category": "Cultivation",
+        "question": "How to prepare land for rubber planting?",
+        "answer": "Land preparation steps: (1) Clear existing vegetation — if replacing old rubber, fell trees and remove stumps mechanically or with herbicide (Garlon on cut stumps), (2) Terrace construction on slopes > 10° to prevent erosion, (3) Mark planting points with pegs at recommended spacing, (4) Dig planting holes of 75cm × 75cm × 75cm at least 1 month before planting, (5) Fill holes with topsoil mixed with 100g rock phosphate, (6) Plant during the monsoon season (May-June in SW monsoon) when soil moisture is adequate. For replanting, ensure a minimum 3-month gap after removing old rubber to allow Rigidoporus (white root) fungus to die.",
+        "keywords": [
+            "land preparation",
+            "terracing",
+            "planting holes",
+            "replanting",
+            "monsoon",
+            "rigidoporus"
+        ]
+    },
+    {
+        "id": "cl001",
+        "category": "Climate",
+        "question": "What climate conditions are ideal for rubber cultivation?",
+        "answer": "Rubber (Hevea brasiliensis) requires: Temperature: 25–34°C mean annual, minimum > 20°C (frost-free). Rainfall: 2000–3000 mm/year, well-distributed (no dry spell > 3 months). Humidity: 70–90% relative humidity. Altitude: below 600m above sea level (optimal 0–300m). Sunshine: 5–7 hours/day minimum. In Sri Lanka, the wet zone (Kalutara, Kegalle, Ratnapura, Galle districts) is ideal. The intermediate zone is marginal. Wind speed > 40 km/h causes winbreak damage — plant wind breaks of Gliricidia or Albizzia on exposed boundaries.",
+        "keywords": [
+            "climate",
+            "temperature",
+            "rainfall",
+            "humidity",
+            "altitude",
+            "wet zone",
+            "Sri Lanka"
+        ]
+    },
+    {
+        "id": "cl002",
+        "category": "Climate",
+        "question": "What soil types are suitable for rubber?",
+        "answer": "Rubber grows best in: Deep, well-drained lateritic soils (Red-Yellow Podzolic soils in Sri Lanka) with pH 4.5–6.0. Soil depth should be > 1.5m without hard pans or rocky layers. Good internal drainage is essential — rubber roots cannot tolerate waterlogging. Avoid heavy clay soils and poorly drained flats. Organic matter content of > 2% is preferred. In Sri Lanka, the reddish-brown lateritic soils of the wet zone low country are ideal. Soil testing before planting is recommended to check pH, organic matter, and nutrient levels.",
+        "keywords": [
+            "soil",
+            "lateritic",
+            "pH",
+            "drainage",
+            "organic matter",
+            "red-yellow podzolic"
+        ]
+    },
+    {
+        "id": "cl003",
+        "category": "Climate",
+        "question": "How does monsoon affect rubber tapping?",
+        "answer": "The monsoon significantly impacts rubber tapping in Sri Lanka: Southwest Monsoon (May–September): Heavy rainfall in the wet zone. Tapping may be interrupted on heavy rain days (latex gets diluted/washed away). Phytophthora leaf fall is most severe during this period. Northeast Monsoon (December–February): Drier in the west, natural wintering (leaf fall) occurs — trees rest and yields are naturally lower. Inter-monsoon periods (March–April, October–November): Good tapping weather, moderate rainfall. Tappers should start tapping early morning (5–7 AM) before rain to maximize latex collection.",
+        "keywords": [
+            "monsoon",
+            "rainfall",
+            "tapping",
+            "southwest",
+            "northeast",
+            "wintering",
+            "leaf fall"
+        ]
+    },
+    {
+        "id": "e001",
+        "category": "Economics",
+        "question": "What factors affect rubber prices?",
+        "answer": "Rubber prices are influenced by: (1) Global crude oil prices — synthetic rubber (from petroleum) competes with natural rubber, so high oil prices push NR prices up, (2) China/India demand — these are the largest consumers (automotive tires), (3) Production levels in major producers (Thailand, Indonesia, Vietnam), (4) Currency exchange rates — rubber is traded in USD, so local currency weakening increases domestic prices, (5) Stock levels at commodity exchanges (TOCOM, SICOM, Shanghai Futures), (6) Weather events — droughts/floods in producing countries reduce supply, (7) Government policies — export duties, minimum prices, buffer stock interventions. In Sri Lanka, the Colombo Rubber Traders Association publishes daily prices.",
+        "keywords": [
+            "prices",
+            "crude oil",
+            "demand",
+            "supply",
+            "exchange rate",
+            "TOCOM",
+            "SICOM"
+        ]
+    },
+    {
+        "id": "e002",
+        "category": "Economics",
+        "question": "How to maximize rubber yield per hectare?",
+        "answer": "Key strategies for yield optimization: (1) Choose high-yielding clones (RRIC 100, RRIC 121: 1800–2000 kg/ha/year potential), (2) Proper tapping technique — consistent depth (reaching 1mm above cambium), angle (30° from horizontal), and clean consumption, (3) Optimal tapping frequency — S/2 d/2 with low-dose Ethephon stimulation on panels where appropriate, (4) Balanced fertilization — 600–900g NPKMg/tree/year for mature stands, (5) Disease management — especially CLF and Oidium control, (6) Rain guard installation — rubber shields above the tapping cut to enable tapping during light rain, (7) Prevent bark damage — train tappers properly to avoid wound on cambium. Average Sri Lanka yield: 800–1200 kg/ha/year. Top estates achieve 1500–2000 kg/ha/year.",
+        "keywords": [
+            "yield",
+            "optimization",
+            "tapping",
+            "clone",
+            "ethephon",
+            "rain guard",
+            "kg per hectare"
+        ]
+    },
+    {
+        "id": "e003",
+        "category": "Economics",
+        "question": "What is the cost of establishing a rubber plantation?",
+        "answer": "Approximate establishment costs in Sri Lanka (per hectare, 2024 values): Land preparation: Rs 100,000–150,000. Planting material (550 budded stumps): Rs 50,000–70,000. Planting labor: Rs 40,000–60,000. Fertilizer (years 1–6): Rs 30,000–45,000/year. Weeding and maintenance (years 1–6): Rs 50,000–80,000/year. Total immature period cost (6 years): Rs 800,000–1,200,000/ha. Government subsidies from the Rubber Development Department can offset 30–50% of planting costs for smallholders. Break-even is typically achieved by year 9–10 after planting.",
+        "keywords": [
+            "cost",
+            "establishment",
+            "investment",
+            "subsidy",
+            "break-even",
+            "smallholder"
+        ]
+    },
+    {
+        "id": "e004",
+        "category": "Economics",
+        "question": "What intercropping options generate income during immature phase?",
+        "answer": "During the 5–7 year immature period before tapping begins, farmers can generate income through intercropping: Short-term (Year 1–2): Banana, pineapple, ginger, turmeric, vegetables. Medium-term (Year 1–4): Pepper (trained on rubber tree trunks — very popular in Sri Lanka), cinnamon, cocoa. Leguminous cover crops: Pueraria and Mucuna earn no direct income but save on fertilizer (nitrogen fixation) and weeding costs. Avoid intercropping beyond year 4–5 as rubber canopy closes and shading increases. At least 1.5m clear space around each rubber tree must be maintained.",
+        "keywords": [
+            "intercropping",
+            "banana",
+            "pepper",
+            "income",
+            "immature phase",
+            "smallholder"
+        ]
+    },
+    {
+        "id": "pr001",
+        "category": "Processing",
+        "question": "How to make ribbed smoked sheets (RSS)?",
+        "answer": "RSS production process: (1) Collect fresh field latex and strain through a 40-mesh sieve, (2) Dilute to 12.5–15% DRC in coagulation troughs, (3) Add dilute formic acid (1:10 ratio) at 4–6 mL/kg DRC, stir gently, (4) Allow to coagulate undisturbed for 6–8 hours or overnight, (5) Pass coagulum through a set of sheeting rollers (smooth rolls then ribbed rolls), (6) Soak sheets in 1% sodium bisulfite solution to prevent mould, (7) Hang in smoke house — Day 1–2: 40–45°C (drying), Day 3–5: 50–60°C (smoking with rubber wood), (8) Grade according to Green Book standards. Total process: 5–7 days from latex to finished RSS.",
+        "keywords": [
+            "RSS",
+            "smoked sheet",
+            "coagulation",
+            "formic acid",
+            "smoking",
+            "Green Book"
+        ]
+    },
+    {
+        "id": "pr002",
+        "category": "Processing",
+        "question": "How to produce centrifuged latex concentrate?",
+        "answer": "Centrifuged latex production: (1) Field latex is preserved with ammonia (usually 0.35% initially + topped up to 0.70% after centrifuging), (2) Bulk the preserved latex and allow it to mature for 12–24 hours, (3) Feed into a latex centrifuge at 7,000–10,000 rpm — this separates into cream (60% DRC concentrate) and skim (5–8% DRC), (4) The concentrate fraction is collected, ammonia adjusted to minimum 0.70% for HA grade, (5) Quality tests: DRC (min 60%), TSC (min 61.5%), VFA (max 0.02), MST (min 650s), pH (min 10.2), (6) Pack in drums or tankers for export. Sri Lanka exports significant volumes of centrifuged latex, primarily to gloves and condom manufacturers.",
+        "keywords": [
+            "centrifuging",
+            "latex concentrate",
+            "60% DRC",
+            "skim",
+            "ammonia",
+            "gloves"
+        ]
+    },
+    {
+        "id": "pr003",
+        "category": "Processing",
+        "question": "How to make crepe rubber?",
+        "answer": "Crepe rubber production: (1) Natural coagula (cup lumps, tree lace, earth scrap) are collected and sorted by quality, (2) Soak in water to soften and remove surface dirt, (3) Pass repeatedly through crepe rollers with water spray — this maccerates the rubber and removes impurities, (4) Continue rolling through progressively tighter gaps until a thin, smooth sheet is obtained, (5) Hang crepe sheets in a drying shed (not smoke house) for air drying at ambient temperature, (6) Drying takes 2–4 weeks depending on weather. Crepe is graded as Sole Crepe (from latex), Estate Brown Crepe (from cup lumps), or Compo Crepe. Sri Lanka is famous for high-quality pale crepe rubber.",
+        "keywords": [
+            "crepe rubber",
+            "crepe rollers",
+            "cup lumps",
+            "sole crepe",
+            "brown crepe",
+            "air drying"
+        ]
+    },
+    {
+        "id": "pr004",
+        "category": "Processing",
+        "question": "What is the difference between cup lump and field latex?",
+        "answer": "Field latex: The liquid latex that flows from the tapping cut into the collection cup during tapping. It has 25–35% DRC, must be preserved with ammonia within hours, and is used for centrifuged concentrate or RSS production. Cup lump: The naturally coagulated rubber that remains in the collection cup after the latex flow stops. It has 45–55% DRC, does not require preservation (already solid), and is used for crepe rubber or TSR production. Economically, field latex commands a higher price per kg dry rubber than cup lumps due to better quality potential. Both are collected — typically 60–70% latex and 30–40% cup lump by weight.",
+        "keywords": [
+            "cup lump",
+            "field latex",
+            "coagulated",
+            "DRC",
+            "collection",
+            "price"
+        ]
+    },
+    {
+        "id": "pr005",
+        "category": "Processing",
+        "question": "How to process block rubber (TSR)?",
+        "answer": "TSR (Technically Specified Rubber) block production: (1) Collect natural coagula (cup lumps, tree lace, slabs), (2) Size reduction using a pre-breaker or hammer mill, (3) Wash and soak the crumbs to remove dirt (multiple water changes), (4) Pass through crepers/shredders to produce fine rubber crumbs, (5) Spread crumbs on trolley trays in 3–4 cm depth, (6) Dry in a hot air dryer at 100–110°C for 3–4 hours until moisture < 0.80%, (7) Compress into 33.3 kg blocks using a hydraulic press, (8) Wrap in polyethylene film and pack into crates (36 blocks per crate = 1.2 MT). Each block is individually sampled and tested for dirt, ash, nitrogen, volatile matter, PRI, and Mooney viscosity.",
+        "keywords": [
+            "TSR",
+            "block rubber",
+            "crumbs",
+            "drying",
+            "hydraulic press",
+            "PRI",
+            "mooney"
+        ]
+    },
+    {
+        "id": "g001",
+        "category": "General",
+        "question": "What is natural rubber made from?",
+        "answer": "Natural rubber is made from the latex of the Hevea brasiliensis tree, also known as the Para rubber tree, native to the Amazon rainforest but now grown commercially in tropical regions worldwide. The latex is a milky white fluid produced by specialized cells (laticifers) in the bark. It contains rubber hydrocarbon (cis-1,4-polyisoprene) at 25–35%, plus water, proteins, lipids, sugars, and minerals. Latex flows when the bark is cut (tapped), and the rubber is extracted by coagulation, washing, and drying. Sri Lanka is one of the important natural rubber producers in the world.",
+        "keywords": [
+            "natural rubber",
+            "hevea",
+            "polyisoprene",
+            "latex",
+            "tapping",
+            "Sri Lanka"
+        ]
+    },
+    {
+        "id": "g002",
+        "category": "General",
+        "question": "What are the main uses of natural rubber?",
+        "answer": "Natural rubber is used in: Automotive tires (70–75% of all NR consumption) — NR has superior elasticity, heat dissipation, and adhesion to fabric than synthetic rubber. Medical products — surgical gloves, condoms, catheters (requires high-quality centrifuged latex). Footwear — rubber soles, boots, sandals. Industrial products — conveyor belts, hoses, seals, anti-vibration mounts. Consumer products — rubber bands, erasers, balloons, mattresses (foam). Adhesives — rubber-based contact cement and tapes. Sri Lankan rubber is prized for latex-based products (gloves) and high-quality crepe/sheet rubber.",
+        "keywords": [
+            "uses",
+            "tires",
+            "gloves",
+            "condoms",
+            "industrial",
+            "adhesives"
+        ]
+    },
+    {
+        "id": "g003",
+        "category": "General",
+        "question": "What rubber products are manufactured in Sri Lanka?",
+        "answer": "Sri Lanka's rubber manufacturing sector produces: Solid tires (industrial, forklift) — a major export earner. Rubber gloves — surgical and examination gloves (latex-based). Rubber mats and flooring — commercial and industrial. Rubber-based footwear — slippers, boots. Auto components — seals, gaskets, bushings. Crepe rubber and RSS — primary processed rubber for export. Centrifuged latex concentrate — exported mainly to glove manufacturers in Malaysia. The Sri Lanka Export Development Board promotes value-added rubber products as a key export sector. The Rubber Research Institute of Sri Lanka (RRISL) supports industry through research and technology transfer.",
+        "keywords": [
+            "Sri Lanka",
+            "manufacturing",
+            "exports",
+            "tires",
+            "gloves",
+            "RRISL"
+        ]
+    },
+    {
+        "id": "g004",
+        "category": "General",
+        "question": "How does rubber tapping work?",
+        "answer": "Rubber tapping is the process of collecting latex by making a controlled cut in the bark: (1) The tapper makes a thin shaving (1.5mm thick) on the tapping panel using a special tapping knife, (2) The cut follows a half-spiral path at a 30° angle from the horizontal, sloping from upper-left to lower-right, (3) Latex flows from severed laticifer cells in the inner bark into a metal spout fixed at the lower end, (4) It drips into a collection cup (coconut shell or plastic). Tapping is done early morning (5-7 AM) when turgor pressure is highest and temperature is cool. One tapper can tap 350-450 trees per day. The bark regenerates and can be retapped after 6-7 years.",
+        "keywords": [
+            "tapping",
+            "latex collection",
+            "bark",
+            "knife",
+            "spout",
+            "collection cup",
+            "laticifer"
+        ]
+    },
+    {
+        "id": "g005",
+        "category": "General",
+        "question": "What is Ethephon stimulation in rubber?",
+        "answer": "Ethephon (2-chloroethylphosphonic acid, marketed as Ethrel) is a yield stimulant for rubber trees. When applied to the bark near the tapping cut, it releases ethylene gas which: (1) Extends the duration of latex flow after tapping (delays vessel plugging), (2) Increases the latex volume per tapping, (3) Can boost yield by 30-100% depending on clone. Application: 2.5–5% Ethephon mixed with palm oil, applied as a 1cm band on the bark below the tapping cut. Frequency: once per month maximum. Caution: Over-stimulation causes Brown Bast (TPD), so use low concentrations (2.5%) with reduced tapping frequency (d/3 or d/4).",
+        "keywords": [
+            "ethephon",
+            "ethrel",
+            "stimulation",
+            "yield",
+            "ethylene",
+            "brown bast",
+            "TPD"
+        ]
+    }
+]
