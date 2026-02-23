@@ -109,4 +109,4 @@ override.cfg
 *.swp
 *~
 
-venv
+venv/
