@@ -63,6 +63,15 @@ pip install -r requirements.txt
 
 ### Step 3: Run the Server
 
+if using portable device for checking this app.4
+
+netsh advfirewall firewall add rule name="RubberBot Chatbot" dir=in action=allow protocol=TCP localport=5008
+
+
+netsh advfirewall firewall show rule name=all dir=in  | Select-String -Pattern "5008" -Context 3,0
+
+then we can see : There's already a firewall rule allowing TCP traffic on port 5008 inbound. So the firewall is not blocking the chatbot.
+
 ```bash
 python app.py
 ```
