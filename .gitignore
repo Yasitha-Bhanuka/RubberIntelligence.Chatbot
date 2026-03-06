@@ -110,3 +110,4 @@ override.cfg
 *~
 
 venv/
+services/__pycache__/chat_service.cpython-314.pyc
