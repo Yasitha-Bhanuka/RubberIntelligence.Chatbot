@@ -6,4 +6,6 @@ flask-cors==5.0.1
 sentence-transformers==3.4.1
 faiss-cpu==1.13.2
 
-# numpy is installed automatically by sentence-transformers
+# Database access
+pymongo==4.6.2
+python-dotenv==1.0.1

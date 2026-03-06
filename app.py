@@ -7,6 +7,11 @@ import os
 import uuid
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from dotenv import load_dotenv
+
+# Load env variables before importing services that use them
+load_dotenv()
+
 from services.chat_service import ChatService
 
 # Logging
@@ -38,14 +43,21 @@ def chat():
 
     message = data['message'].strip()
     session_id = data.get('sessionId', str(uuid.uuid4()))
+    latitude = data.get('latitude')
+    longitude = data.get('longitude')
 
     if not message:
         return jsonify({'error': 'Message cannot be empty'}), 400
 
-    logger.info(f"[{session_id[:8]}] User: {message[:80]}")
+    logger.info(f"[{session_id[:8]}] User: {message[:80]} (GPS: {latitude}, {longitude})")
 
     try:
-        response = chat_service.process_message(message, session_id)
+        response = chat_service.process_message(
+            message=message, 
+            session_id=session_id, 
+            latitude=latitude, 
+            longitude=longitude
+        )
         logger.info(
             f"[{session_id[:8]}] Bot: confidence={response['confidence']:.3f} "
             f"level={response['confidence_level']} category={response.get('category', '')}"

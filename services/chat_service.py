@@ -1,5 +1,6 @@
 import logging
 from .embedding_service import EmbeddingService
+from .db_service import DbService
 
 logger = logging.getLogger(__name__)
 
@@ -29,9 +30,10 @@ class ChatService:
 
     def __init__(self, knowledge_path: str = None):
         self.embedding_service = EmbeddingService(knowledge_path)
+        self.db_service = DbService()
         self.conversation_contexts = {}  # sessionId -> last category
 
-    def process_message(self, message: str, session_id: str = None) -> dict:
+    def process_message(self, message: str, session_id: str = None, latitude: float = None, longitude: float = None) -> dict:
         """
         Process a user message and return a structured response.
 
@@ -57,15 +59,52 @@ class ChatService:
 
         # High confidence — direct expert answer
         if top_score >= HIGH_CONFIDENCE:
-            return self._high_confidence_response(results, top_entry, top_score, session_id)
-
+            response = self._high_confidence_response(results, top_entry, top_score, session_id)
         # Medium confidence — partial match
         elif top_score >= MEDIUM_CONFIDENCE:
-            return self._medium_confidence_response(results, top_score, session_id)
-
+            response = self._medium_confidence_response(results, top_score, session_id)
         # Low confidence — out of domain
         else:
-            return self._low_confidence_response(session_id)
+            response = self._low_confidence_response(session_id)
+
+        # ─── RAG Contextual Awareness via MongoDB ───
+        if latitude is not None and longitude is not None and response['confidence_level'] in ['high', 'medium']:
+            cat_str = response.get('category', '')
+            if any(c in cat_str for c in ['Diseases', 'Pests', 'Weeds', 'Multiple Topics']):
+                nearby_diseases = self.db_service.get_nearby_diseases(float(latitude), float(longitude))
+                
+                # Check for string match between the detected diseases and our expert system answer/question
+                matched_disease = None
+                
+                # We check the top entry text and the actual reply text
+                combined_text = (response.get('reply', '') + " " + top_entry.get('question', '')).lower()
+                
+                for disease in nearby_diseases:
+                    # e.g., "Powdery_mildew" -> "powdery mildew"
+                    search_term = disease.replace('_', ' ').lower()
+                    if search_term in combined_text:
+                        matched_disease = disease
+                        break
+                
+                if matched_disease:
+                    formatted_disease = matched_disease.replace('_', ' ')
+                    alert = f"🚨 **Action Recommended!** We have recently detected **{formatted_disease}** within 5km of your location. Please carefully review the guidance below.\n\n"
+                    response['reply'] = alert + response['reply']
+                    
+                    # Add UI Action to navigate to the map
+                    response['action'] = {
+                        "type": "NAVIGATE_TO_MAP",
+                        "params": {
+                            "diseaseName": matched_disease,
+                            "latitude": float(latitude),
+                            "longitude": float(longitude)
+                        }
+                    }
+                else:
+                    reassurance = f"ℹ️ **Good News:** This issue has not been detected within 5km of your location recently. Here is the general information:\n\n"
+                    response['reply'] = reassurance + response['reply']
+
+        return response
 
     def _high_confidence_response(self, results, top_entry, score, session_id):
         """Generate response for high-confidence matches."""
