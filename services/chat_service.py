@@ -68,30 +68,31 @@ class ChatService:
             response = self._low_confidence_response(session_id)
 
         # ─── RAG Contextual Awareness via MongoDB ───
-        if latitude is not None and longitude is not None and response['confidence_level'] in ['high', 'medium']:
+        if latitude is not None and longitude is not None:
+            # Check if user specifically asked about their location
+            is_location_query = any(keyword in message.lower() for keyword in ["near me", "my place", "my location", "nearby", "around me", "here"])
+            
             cat_str = response.get('category', '')
-            if any(c in cat_str for c in ['Diseases', 'Pests', 'Weeds', 'Multiple Topics']):
-                nearby_diseases = self.db_service.get_nearby_diseases(float(latitude), float(longitude))
+            if is_location_query or (response['confidence_level'] in ['high', 'medium'] and any(c in cat_str for c in ['Diseases', 'Pests', 'Weeds', 'Multiple Topics'])):
                 
-                # Check for string match between the detected diseases and our expert system answer/question
-                matched_disease = None
+                nearby_diseases = self.db_service.get_nearby_diseases(float(latitude), float(longitude))
                 
                 # We check the top entry text and the actual reply text
                 combined_text = (response.get('reply', '') + " " + top_entry.get('question', '')).lower()
                 
+                matched_disease = None
                 for disease in nearby_diseases:
-                    # e.g., "Powdery_mildew" -> "powdery mildew"
                     search_term = disease.replace('_', ' ').lower()
                     if search_term in combined_text:
                         matched_disease = disease
                         break
                 
+                # Scenario 1: User asked a specific question that matched a specific nearby disease
                 if matched_disease:
                     formatted_disease = matched_disease.replace('_', ' ')
                     alert = f"🚨 **Action Recommended!** We have recently detected **{formatted_disease}** within 5km of your location. Please carefully review the guidance below.\n\n"
                     response['reply'] = alert + response['reply']
                     
-                    # Add UI Action to navigate to the map
                     response['action'] = {
                         "type": "NAVIGATE_TO_MAP",
                         "params": {
@@ -100,9 +101,33 @@ class ChatService:
                             "longitude": float(longitude)
                         }
                     }
-                else:
+                # Scenario 2: User asked a general location question and there ARE diseases nearby
+                elif is_location_query and nearby_diseases:
+                    disease_list = ", ".join([d.replace('_', ' ') for d in nearby_diseases])
+                    alert = f"🚨 **Warning:** We have detected the following issues within 5km of your location recently: **{disease_list}**.\n\nI recommend routinely checking your plantation for signs of these issues.\n\nHere is some general information:\n"
+                    
+                    if response['confidence_level'] == 'low':
+                         response['reply'] = alert + "\nTry asking me specifically about one of those issues!"
+                         response['category'] = "Local Alert"
+                    else:
+                         response['reply'] = alert + response['reply']
+                         
+                    # Add generic map action for the first disease found
+                    response['action'] = {
+                        "type": "NAVIGATE_TO_MAP",
+                        "params": {
+                            "diseaseName": list(nearby_diseases)[0],
+                            "latitude": float(latitude),
+                            "longitude": float(longitude)
+                        }
+                    }
+                # Scenario 3: User asked about a specific disease, but it's NOT nearby
+                elif not is_location_query and response['confidence_level'] in ['high', 'medium'] and any(c in cat_str for c in ['Diseases', 'Pests']):
                     reassurance = f"ℹ️ **Good News:** This issue has not been detected within 5km of your location recently. Here is the general information:\n\n"
                     response['reply'] = reassurance + response['reply']
+                # Scenario 4: User asked "what is near me" but the area is clear
+                elif is_location_query and not nearby_diseases:
+                    response['reply'] = f"✅ **Great News!** We haven't detected any major rubber diseases or pests within 5km of your location recently.\n\n" + (response['reply'] if response['confidence_level'] != 'low' else "Is there anything specific you'd like to learn about?")
 
         return response
 
