@@ -38,7 +38,7 @@ class DbService:
         Queries MongoDB for DiseaseRecords within a certain radius and time frame.
         Returns a set of unique disease 'PredictedLabel' strings.
         """
-        if not self.db:
+        if self.db is None:
             return set()
             
         try:

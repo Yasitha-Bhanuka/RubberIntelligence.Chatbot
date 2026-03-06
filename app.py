@@ -105,6 +105,6 @@ def health():
 # ─── Run ──────────────────────────────────────────────────────
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5008))
-    logger.info(f"Starting RubberBot on port {port}")
-    app.run(host='0.0.0.0', port=port, debug=True)
+    PORT = int(os.environ.get('PORT', 5008))
+    logger.info(f"Starting RubberBot on port {PORT}")
+    app.run(host='0.0.0.0', port=PORT, debug=True, use_reloader=False)
